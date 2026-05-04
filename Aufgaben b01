@@ -1,0 +1,32 @@
+Git Status erklären:
+
+    -In den ersten zwei Zeilen wird definiert, dass wir uns im Branch b03 befinden.
+
+    -Im zweiten Abschnitt werden zwei Daten aufgelistet, bei denen lokale Änderungen erkannt wurden die noch nicht für einen Commit vorgemerkt wurden. Es werden die Befehle "git add <file>" und "git restore <file>" vorgeschlagen um dies entweder zu tun oder die Änderungen rückgängig zu machen.
+
+    -Im dritten Abschnit wird die neu Datei foo.java genannt, welche noch nicht für einen Commit angewählt wurde. Es wird der Befehl "git add <file>" vorgeschlagen um dies zu tun.
+
+    -In der Letzten Zeile werde ich darüber informiert, dass sich aktuell keine Änderungen oder neue Dateien im Index für den nächsten Commit befinden und dieser somit nichts machen würde.
+
+    foo.java commiten:
+
+                git add foo.java
+                git commit -m "Add foo.java"
+    (optinal)   git status
+
+
+Aufgaben Git-Spiel:
+
+    a) An Tag 01 betritt Markus, mit einem Schwert und einer leichten Rüstung ausgerüstet, den Dungeon und trifft auf Rattenähnliche Wesen.
+
+    b) Die Anzahl der Erfahrungspunkte von Markus betrugen an Tag 1.3 zum ersten mal 4.
+
+    c) Die Anzahl der Hungerpunkte von Markus waren an Tag 02 zum ersten mal 10.
+
+    d) Markus hatte im Laufe seines Abenteuers insgesamt 2 Heiltränke in seinem Rucksack.
+
+    e) Markus hat im Shop ein Zwergenbrot und einen Heiltrank gekauft. Dafür hat er jeweils 5 Gold, also insgesamt 10 Gold bezahlt.
+
+    f) Im Laufe von Tag 3 hat Markus einen Shop besucht, mit dem Shopkeeper über die Preise verhandelt, ein Zwergenbrot und einen Heiltrank gekauft und beides verzehrt.
+
+    g) An Tag 3.17 hat Markus einen Heiltrank getrunken und das Zwergenbrot gegessen.
